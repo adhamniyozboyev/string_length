@@ -6,7 +6,13 @@
         b: string
     Returns:
         True or False
-*/
-void main() {
+*/bool func(a,b){
+  int s=a.length;
+  int z= b.length;
+  if(s==z){
+    return true;
+  }return false;
+}
+void main() {print(func('morning', 'afternoon'));
   // write your code here
 }
