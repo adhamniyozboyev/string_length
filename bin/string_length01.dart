@@ -5,13 +5,11 @@
         a: string
     Returns:
         length of string */
-
+int  func(text){
+  int x=text.length;
+  return x;
+}
 void main() {
-  String s;
-  s= "Qizil qishloq";
-  int n;
-  n=s.length;
-  
-  print(n);
+  print(func('ADHAM'));
   // write your code here
 }
