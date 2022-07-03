@@ -7,5 +7,12 @@
         length of string */
 
 void main() {
+  String s;
+  s= "Samarqand";
+  int n;
+  n=s.length;
+  String ans;
+  ans="*"*n;
+  print(ans);
   // write your code here
 }
