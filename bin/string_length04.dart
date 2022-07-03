@@ -5,7 +5,14 @@
         s: string
     Returns:
         string
-*/
+*/String func(a){
+  String x;
+  int f;
+  String ans;
+  ans = "*"*a;
+  return ans;
+}
 void main() {
-  // write your code here
+  print(func('evenings'));
+//write your code here
 }
