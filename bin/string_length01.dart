@@ -11,8 +11,7 @@ void main() {
   s= "Qizil qishloq";
   int n;
   n=s.length;
-  String ans;
-  ans="*"*n;
-  print(ans);
+  
+  print(n);
   // write your code here
 }
