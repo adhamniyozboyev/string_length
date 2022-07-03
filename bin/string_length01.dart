@@ -8,7 +8,7 @@
 
 void main() {
   String s;
-  s= "Samarqand";
+  s= "Ishtixon";
   int n;
   n=s.length;
   String ans;
