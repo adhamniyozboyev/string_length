@@ -5,7 +5,16 @@
         a: string
     Returns:
         True or False
-     */
+     */bool func(text){
+      int x=text.length;
+      if (x % 2==0);{
+        return true;
+      }return false; 
+       }
+
+     
 void main() {
+  print(func('Samarqand'));
+  
   // write your code here
 }
