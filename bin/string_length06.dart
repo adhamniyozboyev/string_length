@@ -6,7 +6,14 @@
         s2: string
     Returns:
         shortest string
-*/
-void main() {
+*/int func(s1,s2){
+  int h=s1.length;
+  int k=s2.length;
+  if (h<k){
+    return h;
+  }return k;
+}
+void main() {print(func("Codeschool","assalomu aleykum"));
+
   // write your code here
 }
