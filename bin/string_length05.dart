@@ -7,6 +7,13 @@
     Returns:
         total length of strings
 */
-void main() {
+int func(s1,s2){
+  int a=s1.length;
+   int b=s2.length;
+   int m=a+b;
+   return m;
+}
+void main() {print(func("Niyozboyev","Adham"));
+
   // write your code here
 }
