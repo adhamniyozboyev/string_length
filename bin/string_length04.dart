@@ -8,6 +8,7 @@
 */String func(a){
   String x;
   int f;
+   a=a.length;
   String ans;
   ans = "*"*a;
   return ans;
