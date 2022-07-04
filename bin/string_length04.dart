@@ -14,6 +14,6 @@
   return ans;
 }
 void main() {
-  print(func('evenings'));
+  print(func('nights'));
 //write your code here
 }
