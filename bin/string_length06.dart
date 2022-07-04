@@ -6,14 +6,17 @@
         s2: string
     Returns:
         shortest string
-*/int func(s1,s2){
-  int h=s1.length;
-  int k=s2.length;
-  if (h<k){
-    return h;
-  }return k;
+*/String func(String s1,String s2){
+  String g;
+  int x=s1.length;
+  int u=s2.length;
+  if(x<u){
+    return s1;
+  } return s2;
+  
+  
 }
-void main() {print(func("Codeschool","assalomu aleykum"));
+void main() {print(func("Codeschool","salom"));
 
   // write your code here
 }
