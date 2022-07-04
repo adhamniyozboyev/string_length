@@ -14,6 +14,6 @@
   return ans;
 }
 void main() {
-  print(func('nights'));
+  print(func('Niyozboyev'));
 //write your code here
 }
