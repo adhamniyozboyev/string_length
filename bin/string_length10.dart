@@ -4,9 +4,12 @@
     Args:
         s: str
     Returns:
-        bool: answer
+        bool: answer  
 */
-
-void main() {
+String func(String s){
+  
+  return s.toUpperCase();
+}void main() {
+  print(func("niyozboyev"));
   // write your code here
 }
